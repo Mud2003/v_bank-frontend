@@ -109,13 +109,5 @@ button{
 
 }
 @media screen and (max-width: 321px) {
-    .menulist > li > button{
-        margin: 5rem;
-        font-size: 16px;
-        padding: 10px 22px;
-        background-color: #01BF71;
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-    }    
+  
 }
