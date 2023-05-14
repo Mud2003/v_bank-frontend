@@ -1,7 +1,12 @@
 .navbar{
     box-sizing: border-box;
     padding: 1rem 15rem;
+    /* background-color: transparent; */
     background-color: black;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    z-index: 20;
 }
 .nav-container{
     display: flex;
@@ -39,7 +44,7 @@ button{
 }
 .menulist{
     padding: 0;
-    padding-top: 5rem;
+    padding-top: 4rem;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -50,6 +55,11 @@ button{
     background-color: black;
     color: #fff;
     font-size: 22px;
+    /* width: 100%; */
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+    top: 5rem;
 }
 .menulist > li > button{
     margin: 5rem;
@@ -62,14 +72,12 @@ button{
     .navbar{
         box-sizing: border-box;
         padding: 1rem 10rem;
-        background-color: black;
     }
 }
 @media screen and (max-width: 991px) {
     .navbar{
         box-sizing: border-box;
         padding: 1rem 5rem;
-        background-color: black;
     }
     .menu-items > ul{
         list-style: none;
@@ -82,7 +90,6 @@ button{
     .navbar{
         box-sizing: border-box;
         padding: 1rem 3rem;
-        background-color: black;
     }
     .menu-items > ul{
         list-style: none;
