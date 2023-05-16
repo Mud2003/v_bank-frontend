@@ -20,6 +20,7 @@
 }
 .ourservice-cont > h1{
     font-size: 40px;
+    margin-top: 3rem;
 }
 .cards{
     display: flex;
