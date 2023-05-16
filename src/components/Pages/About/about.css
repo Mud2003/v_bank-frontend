@@ -1,0 +1,207 @@
+.bg-color{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.imgcont > img{
+    width: 500px;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8rem;
+}
+.textcont > h5 {
+    margin: 0;
+    color: rgb(1, 191, 113);
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.textcont > h2{
+    margin: 0;
+    font-size: 56px;
+    line-height: 1;
+    font-weight: 600;
+}
+.textcont > p{
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.btm > button{
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1245px) {
+    .imgcont > img{
+        width: 450px;
+    }
+    .content1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8rem;
+    }
+    .textcont > h5 {
+        margin: 0;
+        color: rgb(1, 191, 113);
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    .textcont > h2{
+        margin: 0;
+        font-size: 52px;
+        line-height: 1;
+        font-weight: 600;
+    }
+    .textcont > p{
+        margin-bottom: 35px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .btm > button{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .imgcont > img{
+        width: 350px;
+    }
+    .content1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+    }
+    .textcont > h5 {
+        margin: 0;
+        color: rgb(1, 191, 113);
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    .textcont > h2{
+        margin: 0;
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 600;
+    }
+    .textcont > p{
+        margin-bottom: 35px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .btm > button{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .imgcont > img{
+        width: 300px;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
+    }
+    .textcont > h5 {
+        margin: 0;
+        color: rgb(1, 191, 113);
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .textcont > h2{
+        margin: 0;
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .textcont > p{
+        margin-bottom: 35px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .btm > button{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 625px) {
+
+}
+@media screen and (max-width: 458px) {
+
+}
+@media screen and (max-width: 361px) {
+    .bg-color{
+        background-color: black;
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .imgcont > img{
+        width: 250px;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
+    }
+    .textcont > h5 {
+        margin: 0;
+        color: rgb(1, 191, 113);
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .textcont > h2{
+        margin: 0;
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .textcont > p{
+        margin-bottom: 35px;
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0 1rem;
+    }
+    .btm > button{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 321px) {
+
+}

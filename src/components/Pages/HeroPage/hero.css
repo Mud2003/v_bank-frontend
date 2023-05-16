@@ -10,20 +10,17 @@ video{
     display: flex;
     z-index: 1;
 }
-.content{
+.content {
     /* border: 1px solid #fff; */
     position: absolute;
     color: #fff;
     display: flex;
     flex-direction: column;
-
-
-     margin: 0;
-     position: absolute;
-     top: 50%;
-     -ms-transform: translateY(-50%);
-     transform: translateY(-50%);
-
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: center;
     justify-content: center;
     align-items: center;

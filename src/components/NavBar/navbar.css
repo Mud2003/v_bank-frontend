@@ -3,7 +3,7 @@
     padding: 1rem 15rem;
     /* background-color: transparent; */
     background-color: black;
-    position: absolute;
+    position: fixed;
     width: 100%;
     align-items: center;
     z-index: 20;
