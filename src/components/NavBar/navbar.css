@@ -57,7 +57,7 @@ button{
     font-size: 22px;
     /* width: 100%; */
     z-index: 20;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 5rem;
 }
