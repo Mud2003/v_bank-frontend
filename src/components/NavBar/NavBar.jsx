@@ -6,6 +6,16 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
 
+    // Change navbar background color on scroll
+    window.onscroll = function () {
+        var navbar = document.getElementById("nav"); // Replace "navbar" with the ID of your navbar element
+        if (window.pageYOffset > 0) { // Check if user has scrolled
+            navbar.style.backgroundColor = "black"; // Replace "your-color" with your desired background color
+        } else {
+            navbar.style.backgroundColor = "transparent"; // Reset background color if user has scrolled back to the top of the page
+        }
+    }
+
     const [display, setDisplay] = useState('none');
 
     const clickBtn = () => {
@@ -14,7 +24,7 @@ export default function NavBar() {
 
     return (
         <>
-            <nav className='navbar'>
+            <nav className='navbar' id='nav'>
                 <div className="nav-container">
                     <div className="logo">
                         dolla
