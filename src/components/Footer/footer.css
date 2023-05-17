@@ -1,0 +1,147 @@
+.foot-bg{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 4rem;
+}
+.f-l-section{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.set > h5{
+    margin: 0 0;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+.ul{
+    margin: auto;
+    padding: 0;
+}
+.ul > li{
+    list-style: none;
+    margin: 3px;
+}
+.ul > li:hover{
+    color: #01BF71;
+}
+.foot-f{
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo > h2{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.icons{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.icons > a {
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1245px) {
+    .foot-bg{
+        background-color: black;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        gap: 3rem;
+    }
+    .f-l-section{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .f-l-section{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .icons{
+        gap: .3rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .foot-bg{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        gap: 4rem;
+        padding: 2rem 0;
+    }
+    .f-l-section{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .foot-f{
+        gap: .3rem;
+        flex-direction: column;
+        padding: 0;
+    }
+    .set{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .set > h5{
+        margin: 0 0;
+        margin-bottom: 1rem;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 625px) {
+
+}
+@media screen and (max-width: 458px) {
+
+}
+@media screen and (max-width: 361px) {
+
+}
+@media screen and (max-width: 321px) {
+
+}

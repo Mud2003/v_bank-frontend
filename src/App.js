@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/Pages/About/About';
 import Discover from './components/Pages/Discover/Discover';
@@ -15,6 +16,7 @@ function App() {
       <Discover/>
       <Services/>
       <SignUp/>
+      <Footer/>
     </>
   );
 }
