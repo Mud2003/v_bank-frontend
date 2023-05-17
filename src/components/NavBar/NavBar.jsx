@@ -2,6 +2,7 @@ import './navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
 
@@ -27,7 +28,7 @@ export default function NavBar() {
                         </ul>
                     </div>
                     <div className="btn">
-                        <button>Sign In</button>
+                        <button><Link style={{textDecoration: 'none', color: 'black'}} to="/signin">Sign In</Link></button>
                     </div>
                     <div className="humburg" onClick={clickBtn}>
                         <MenuIcon fontSize='medium' style={{ display: display === 'none' ? 'block' : 'none' }} />
@@ -41,7 +42,7 @@ export default function NavBar() {
                 <li>Services</li>
                 <li>SignUp</li>
                 <li>
-                    <button>Sign In</button>
+                <button><Link style={{textDecoration: 'none', color: 'black'}} to="/signin">Sign In</Link></button>
                 </li>
             </ul>
         </>

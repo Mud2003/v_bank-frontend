@@ -37,6 +37,7 @@ button{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    color: black;
 }
 .humburg{
     display: none;
